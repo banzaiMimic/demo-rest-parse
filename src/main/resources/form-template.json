@@ -1,0 +1,28 @@
+{
+  "title": "test title",
+  "sections": [
+    {
+      "title": "section title",
+      "inputs": [
+        {
+          "type": "text",
+          "label": "input label",
+          "name": "input-name-a"
+        },
+        {
+          "type": "indent-group",
+          "label": "indent group label",
+          "title": "indent group title",
+          "inputs": [
+            {
+              "type": "text",
+              "label": "input label",
+              "name": "input-name-b",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
